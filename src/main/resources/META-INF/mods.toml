@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="MIT"
+
+[[mods]]
+  modId="commandmod"
+  version="${file.jarVersion}"
+  displayName="Command Mod"
+  # updateJSONURL="https://cdn.sillyangel.ml/updates.json"
+  # displayURL="https://sillyangel.ml/"
+  logoFile="commmandmob.png"
+  authors="sillyangel"
+  # credits="Thanks for this command mod goes to Java"
+
+  description='''
+Created by sillyangel3 on github
+  '''
+
+[[dependencies.commandmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.commandmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18.2)"
+    ordering="NONE"
+    side="BOTH"
