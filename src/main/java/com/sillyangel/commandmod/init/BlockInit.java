@@ -1,6 +1,6 @@
 package com.sillyangel.commandmod.init;
 
-import java.unit.function.Function;
+import java.util.function.Function;
 
 import com.sillyangel.commandmod.Commandmod;
 import com.google.common.base.Supplier;
