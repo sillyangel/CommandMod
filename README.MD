@@ -8,4 +8,8 @@ make sure to have forge 1.18.2, and just bring the jar file to the forge mod and
 
 ## Change log
 
-- 1.0.0
+### 1.0.0
+
+- Added Someblocks
+- Added some commands
+- Added one alot items
