@@ -1,4 +1,5 @@
 # Command Mod
+[buildpassing](https://img.shields.io/circleci/build/github/sillyangel/CommandMod/main)
 
 my awsome forge mod.
 
