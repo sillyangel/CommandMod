@@ -22,7 +22,7 @@ public class BlockInit {
     public static final RegistryObject<Block> EXAMPLE_BLOCK = register("example_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_PURPLE)), null);
 
-    private static <T extends Block> RegistryObject<T> registerBlock(final String name, 
+      private static <T extends Block> RegistryObject<T> registerBlock(final String name, 
             final Supplier<? extends T> block) {
 		return BLOCKS.register(name, block);
 	}
