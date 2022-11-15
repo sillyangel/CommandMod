@@ -20,7 +20,7 @@ public class BlockInit {
     public static final DeferredRegister<Item> ITEMS = ItemInit.ITEMS;
 
     public static final RegistryObject<Block> EXAMPLE_BLOCK = register("example_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAl, MaterialColor.COLOR_PURPLE)), null);
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_PURPLE)), null);
 
     private static <T extends Block> RegistryObject<T> registerBlock(final String name, 
             final Supplier<? extends T> block) {
